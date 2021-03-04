@@ -48,7 +48,7 @@ describe('Test', function(){
             'method' : 'PUT',
             'url' : '/users/2',
             body: {
-                "name": "John",
+                "name": "Dan",
                 "job": "Engineer"
             }
         })
