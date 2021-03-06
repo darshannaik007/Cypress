@@ -1,4 +1,3 @@
-
 it('Test1',function(){
     cy.visit('https://example.cypress.io');
     cy.contains('get').click();
@@ -16,6 +15,6 @@ it('Test1',function(){
     //Explicit assertion
     let name: string = 'Darshan';
     expect(name).to.be.equals('Darshan');
-    assert.equal('Darshan', name, "Not equal");
+    assert.equal('Darshan', name, "Not equal");  
 })
 
